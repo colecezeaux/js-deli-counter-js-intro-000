@@ -9,5 +9,5 @@ function nowServing(line) {
   } else {
     return `Currently serving ${line[0]}.`
   }
-  line.shift(1)
+  line.shift()
 }
