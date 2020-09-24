@@ -20,7 +20,7 @@ var n = []
   } else {
     let i = []
     let order = `1. ${line[0]}`
-    for (let i = 0; i < line.length; i++) {
+    for (let i = 1; i < line.length; i++) {
       order = order + `, ${i+1}. ${line[i]}`
      return `The line is currently: ${order}`
       }
