@@ -4,8 +4,7 @@ function takeANumber(line, name) {
 }
 
 function nowServing(line) {
-  let i = 0
-  if(line.length = 0) {
+  if(line.length == 0) {
     return "The line is currently empty."
   } else {
     return `Currently serving ${line[i]}.`
