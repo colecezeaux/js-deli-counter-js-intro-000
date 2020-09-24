@@ -20,8 +20,8 @@ var n = []
   } else {
     for (let i = 0; i < line.length; i++) {
       let num = 1
-      let line = `${num}. ${name}, `
-     n.push(`The line is currently: ${line[i]}`);
+      let line = `${num[i]}. ${name[i]}, `
+     n.push(`The line is currently: ${line}`);
       }
     }
     return n
