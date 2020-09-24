@@ -14,7 +14,7 @@ var n = []
 }
 
 function currentLine(line) {
-  if(line.length == 0) {
+  if(line.length > 1) {
     return "The line is currently empty."
   } else {
     let i = []
