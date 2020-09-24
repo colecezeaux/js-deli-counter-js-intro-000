@@ -18,10 +18,11 @@ var n = []
   if(line.length == 0) {
     n.push("The line is currently empty.")
   } else {
+    let num = []
+    let order = `1. ${line[0]}`
     for (let i = 0; i < line.length; i++) {
-      let num = 1
-      let line = `${num[i]}. ${name[i]}, `
-     n.push(`The line is currently: ${line}`);
+      order = order + `, ${i+1}. ${line[i]}`
+     n.push(`The line is currently: ${order}`);
       }
     }
     return n
