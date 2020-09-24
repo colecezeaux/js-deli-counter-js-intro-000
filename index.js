@@ -18,8 +18,8 @@ var n = []
   if(line.length == 0) {
     n.push("The line is currently empty.")
   } else {
-    let line = `1[i]. ${name[i]}, `
     for (let i = 0; i < line.length; i++) {
+      let line = `1[i]. ${name[i]}, `
      n.push(`The line is currently: ${line[i]}`);
       }
     }
