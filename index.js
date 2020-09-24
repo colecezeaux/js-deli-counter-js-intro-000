@@ -7,6 +7,7 @@ function nowServing(line) {
   if(line.length = 0) {
     return "The line is currently empty."
   } else {
-    return `Currently serving ${line.shift()}.`
+    return `Currently serving ${line[0]}.`
   }
+  line.shift()
 }
