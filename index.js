@@ -17,7 +17,7 @@ function currentLine(line) {
   if(line.length < 1) {
     return "The line is currently empty."
   } else {
-    let i = []
+    var i
     let order = `1. ${line[0]}`
     for (i = 1; i < line.length; i++) {
       order = order + `, ${i+1}. ${line[i]}`
